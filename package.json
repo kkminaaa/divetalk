@@ -1,5 +1,8 @@
 {
   "name": "divetalk",
   "private": true,
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "tailwindcss": "^1.1.3"
+  }
 }
