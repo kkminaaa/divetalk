@@ -1,0 +1,37 @@
+-# / Compiled and minified CSS
+-# %link{:href => "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css", :rel => "stylesheet"}/
+-# / Compiled and minified JavaScript
+-# %script{:src => "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"}
+-# %script{:crossorigin => "anonymous", :integrity => "sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=", :src => "https://code.jquery.com/jquery-3.4.1.js"}
+
+
+%header.header
+  %h1.logo
+    divertalk
+    %a
+  %ul.header__lists
+    %li.list
+      = link_to "",class: 'links' do
+        about
+    %li.list
+      = link_to new_group_path,class: 'links' do
+        group
+    %li.list
+      = link_to "" ,class: 'links' do
+        login
+    %li.list 
+      = link_to "" do
+        = fa_icon 'cog', class: 'icon'
+#main
+  %img.image{alt: "海の写真",src:'https://images.pexels.com/photos/1645028/pexels-photo-1645028.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500'}  
+
+  
+    %section
+    %section
+    %section
+
+  %section
+    %h2
+    %section
+    %section
+    %section

@@ -1,0 +1,12 @@
+.main
+  %section.content
+    %h2
+    %p
+
+    = form_for @group do |f|
+      %dt name
+      = f.text_field :name,class: "group-form__name"
+      %dt  text
+      = f.text_field :text,class: "group-form__text"
+      %dt image
+      = f.file_field :image,class: "group-form__image"
